@@ -1,6 +1,6 @@
 import React from "react";
 
-const LeftNavMenuItem = ({ text, icon, className, action }) => {
+const AsideMenuItem = ({ text, icon, className, action }) => {
     return (
         <div
             className={
@@ -15,4 +15,4 @@ const LeftNavMenuItem = ({ text, icon, className, action }) => {
     );
 };
 
-export default LeftNavMenuItem;
+export default AsideMenuItem;

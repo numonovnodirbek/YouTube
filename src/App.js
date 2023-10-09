@@ -3,7 +3,7 @@ import { IconContext } from "react-icons";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
-import Feed from "./components/Feed";
+import VideosWrapper from "./components/VideosWrapper";
 import SearchResult from "./components/SearchResult";
 import VideoDetails from "./components/VideoDetails";
 import { AppContext } from "./context/contextApi";
@@ -18,7 +18,7 @@ const App = () => {
           <div className="flex flex-col h-full">
             <Header />
             <Routes>
-              <Route path="/" exact element={<Feed />} />
+              <Route path="/" exact element={<VideosWrapper />} />
               <Route
                 path="/searchResult/:searchQuery"
                 element={<SearchResult />}

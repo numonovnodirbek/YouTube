@@ -1,10 +1,10 @@
 import React, { useContext, useEffect } from "react";
 
 import { Context } from "../context/contextApi";
-import LeftNav from "./LeftNav";
+import LeftNav from "./Aside";
 import VideoCard from "./VideoCard";
 
-const Feed = () => {
+const VideosWrapper = () => {
   const { loading, searchResults } = useContext(Context);
 
   useEffect(() => {
@@ -29,4 +29,4 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default VideosWrapper;

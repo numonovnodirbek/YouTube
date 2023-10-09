@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import { fetchDataFromApi } from "../utils/api";
 import { Context } from "../context/contextApi";
-import LeftNav from "./LeftNav";
+import LeftNav from "./Aside";
 import SearchResultVideoCard from "./SearchResultVideoCard";
 
 const SearchResult = () => {
